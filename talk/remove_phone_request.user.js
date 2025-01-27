@@ -5,7 +5,7 @@
 // @description  Remove Phone Request from Talk
 // @author       Dmitry Malenok
 // @match        https://talks.croc.ru/*
-// @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+// @icon         https://s.kontur.ru/common-v2/icons-products/talk/talk-64.svg
 // @grant        none
 // @require      https://code.jquery.com/jquery-3.4.0.slim.min.js
 // ==/UserScript==
