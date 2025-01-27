@@ -19,8 +19,8 @@
         if ($("span:contains('Добавьте номер телефона')").length) {
             $("span:contains('Добавьте номер телефона')").parent().closest('.modal').remove();
         } else {
-            setTimeout(remover, 1000);
+            setTimeout(remover, 500);
         }
     };
-    setTimeout(remover, 1000);
+    setTimeout(remover, 500);
 })();
