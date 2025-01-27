@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Talk: Remove Phone Request
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  Remove Phone Request from Talk
 // @author       Dmitry Malenok
 // @match        https://talks.croc.ru/*
