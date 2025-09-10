@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Fix Telegram A wide screen styles
+// @name         Telegram: Fix message panel styles for wide screen
 // @namespace    http://tampermonkey.net/
-// @version      0.2
-// @description  try to take over the world!
+// @version      0.3
+// @description  The screen fixes message panel styles for wide screen.
 // @author       Dmitry Malenok
 // @match        https://web.telegram.org/a/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=telegram.org
