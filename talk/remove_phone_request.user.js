@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Talk: Remove Phone Request
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.2
 // @description  Remove Phone Request from Talk
 // @author       Dmitry Malenok
 // @match        https://talks.croc.ru/*
@@ -18,6 +18,8 @@
     var remover = () => {
         if ($("span:contains('Добавьте номер телефона')").length) {
             $("span:contains('Добавьте номер телефона')").parent().closest('.modal').remove();
+        } else if ($("span:contains('Add a phone number')").length) {
+            $("span:contains('Add a phone number')").parent().closest('.modal').remove();
         } else {
             setTimeout(remover, 500);
         }
